@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>nd_Stewardship_Classification__c</fullName>
+    <externalId>false</externalId>
+    <label>Stewardship Classification</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Qualified</fullName>
+                <default>false</default>
+                <label>Qualified</label>
+            </value>
+            <value>
+                <fullName>Principal Donor</fullName>
+                <default>false</default>
+                <label>Principal Donor</label>
+            </value>
+            <value>
+                <fullName>Key Donor</fullName>
+                <default>false</default>
+                <label>Key Donor</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

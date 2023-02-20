@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>nd_Due_Diligence_Validation_Date__c</fullName>
+    <description>Purpose: As a robust Due Diligence process is being created, there is both a review of data returned by Dow Jones of a segment of constituents in crmND as well as a proactive search of donors currently being cultivated for leadership gifts. This would be a first step in ensuring we have some trail of due diligence activity. Editable and viewable only by those with Gift Management and Prospect Management (including research) access.</description>
+    <externalId>false</externalId>
+    <label>Due Diligence Validation Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

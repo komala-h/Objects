@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PK_TEST</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ucinn_ascendv2__PRM__c</columns>
+    <columns>Status__c</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>ucinn_ascendv2__Lifetime_Fundraising__c</columns>
+    <columns>ucinn_ascendv2__Lifetime_Cash__c</columns>
+    <columns>nd_Transformative_Gift_Prospect__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>nd_Display_for_Region__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>My Region&apos;s Prospects</label>
+</ListView>

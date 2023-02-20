@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Online_Only__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Use this checkbox to indicate when a business does not have a physical address.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Use this checkbox to indicate when a business does not have a physical address.</inlineHelpText>
+    <label>Online Only</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

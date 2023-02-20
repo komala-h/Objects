@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AllAccounts</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ucinn_ascendv2__Donor_ID__c</columns>
+    <columns>nd_Institutional_Suffix_Formula__c</columns>
+    <columns>ucinn_ascendv2__PRM__c</columns>
+    <columns>Status__c</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>ACCOUNT.ADDRESS1_CITY</columns>
+    <columns>ACCOUNT.ADDRESS1_STATE</columns>
+    <columns>ACCOUNT.SITE</columns>
+    <columns>ucinn_ascendv2__Matching_Ratio__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All Organizations</label>
+</ListView>

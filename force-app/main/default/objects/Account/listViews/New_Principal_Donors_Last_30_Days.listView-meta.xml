@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Principal_Donors_Last_30_Days</fullName>
+    <booleanFilter>1 OR 2</booleanFilter>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.SITE</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>ND_Household_Category__c</columns>
+    <columns>ND_Household_Types__c</columns>
+    <columns>ucinn_ascendv2__PRM__c</columns>
+    <columns>nd_5M_Lifetime_Cash_Milestone__c</columns>
+    <columns>nd_5M_Lifetime_Production_Milestone__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>nd_5M_Lifetime_Cash_Milestone__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>LAST_N_DAYS:30</value>
+    </filters>
+    <filters>
+        <field>nd_5M_Lifetime_Production_Milestone__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>LAST_N_DAYS:30</value>
+    </filters>
+    <label>New Principal Donors (Last 30 Days)</label>
+</ListView>

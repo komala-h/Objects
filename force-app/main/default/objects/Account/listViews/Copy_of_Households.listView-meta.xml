@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Copy_of_Households</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ND_Household_Category__c</columns>
+    <columns>ND_Household_Types__c</columns>
+    <columns>ucinn_ascendv2__Lifetime_Fundraising__c</columns>
+    <columns>ucinn_ascendv2__Lifetime_Cash__c</columns>
+    <columns>ND_Wealth_Rating__c</columns>
+    <columns>ucinn_ascendv2__Wealth_Rating__c</columns>
+    <columns>nd_Net_Worth__c</columns>
+    <columns>ucinn_ascendv2__PRM__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.ucinn_ascendv2__New_Corporations_and_Organizations,Account.ucinn_ascendv2__Household</value>
+    </filters>
+    <filters>
+        <field>ND_Household_Category__c</field>
+        <operation>equals</operation>
+        <value>AS</value>
+    </filters>
+    <filters>
+        <field>nd_Display_for_Region__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Regional Prospects</label>
+</ListView>

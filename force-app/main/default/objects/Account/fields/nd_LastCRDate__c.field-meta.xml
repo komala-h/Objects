@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>nd_LastCRDate__c</fullName>
+    <description>This field holds the date when was the last contact report record created on that organisation</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This field holds the date when was the last contact report record created on that organisation</inlineHelpText>
+    <label>Last Contact Report Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

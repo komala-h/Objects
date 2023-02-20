@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ND_Quick_Start_Layout</fullName>
+    <fields>Name</fields>
+    <fields>ucinn_ascendv2__Primary_Contact__c</fields>
+    <fields>ucinn_ascendv2__PRM__c</fields>
+    <fields>nd_Net_Worth__c</fields>
+    <fields>ND_Wealth_Rating__c</fields>
+    <fields>ND_Last_Wealth_Rating_Date__c</fields>
+    <fields>Primary_Constituent_Preferred_Address__c</fields>
+    <label>ND Household Compact Layout</label>
+</CompactLayout>

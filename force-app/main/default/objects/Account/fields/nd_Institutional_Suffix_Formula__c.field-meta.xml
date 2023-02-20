@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>nd_Institutional_Suffix_Formula__c</fullName>
+    <externalId>false</externalId>
+    <formula>TEXT(Type) &amp; IF((ucinn_ascendv2__Matching_Ratio__c=0 &amp;&amp; ISBLANK(nd_Suffix_Giving_Societies__c) &amp;&amp; NOT(nd_Active_Prospect__c)),&quot;&quot;,&quot;/&quot;) &amp; IF( ucinn_ascendv2__Matching_Ratio__c&gt;0,&quot;MG&quot;,&quot;&quot;) &amp; IF(ISBLANK(nd_Suffix_Giving_Societies__c),&quot;&quot;,nd_Suffix_Giving_Societies__c)&amp; IF(nd_Active_Prospect__c,&quot; AP&quot;,&quot;&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Institutional Suffix Formula</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

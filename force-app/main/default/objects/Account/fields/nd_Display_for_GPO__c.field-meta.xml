@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>nd_Display_for_GPO__c</fullName>
+    <description>Indicator for whether or not the donor&apos;s PRM&apos;s GPO is the same as the user.</description>
+    <externalId>false</externalId>
+    <formula>$User.Id = ucinn_ascendv2__PRM__r.nd_Gift_Planning_Officer__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Indicator for whether or not the donor&apos;s PRM&apos;s GPO is the same as the user.</inlineHelpText>
+    <label>Display for GPO</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

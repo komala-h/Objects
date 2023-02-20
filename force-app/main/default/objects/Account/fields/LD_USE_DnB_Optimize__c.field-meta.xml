@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LD_USE_DnB_Optimize__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Field used to control which records should be matched with D&amp;B Optimizer</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Field used to control which records should be matched with D&amp;B Optimizer</inlineHelpText>
+    <label>Allow D&amp;B Optimizer</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

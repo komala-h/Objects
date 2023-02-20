@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>nd_Primary_Constituent_Business_Address__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(ISBLANK( ucinn_ascendv2__Primary_Contact__r.ucinn_ascendv2__Presidential_Other_Address_Formula__c ),null,
+HYPERLINK(&quot;https://www.google.com/maps/place/&quot; &amp; ucinn_ascendv2__Primary_Contact__r.ucinn_ascendv2__Presidential_Other_Street_v1__c &amp; &quot;,+&quot; &amp; ucinn_ascendv2__Primary_Contact__r.ucinn_ascendv2__Presidential_Other_City__c &amp;&quot;,+&quot;&amp; ucinn_ascendv2__Primary_Contact__r.ucinn_ascendv2__Presidential_Other_State__c &amp;&quot;,+&quot;&amp; ucinn_ascendv2__Primary_Contact__r.ucinn_ascendv2__Presidential_Other_Postal_Code__c
+,ucinn_ascendv2__Primary_Contact__r.ucinn_ascendv2__Presidential_Other_Address_Formula__c, &quot;_blank&quot;))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Primary Constituent Business Address</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

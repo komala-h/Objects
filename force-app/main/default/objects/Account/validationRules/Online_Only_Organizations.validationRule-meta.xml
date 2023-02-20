@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Online_Only_Organizations</fullName>
+    <active>true</active>
+    <description>Requires the User to clear the default Preferred Address Type</description>
+    <errorConditionFormula>AND(NOT( RecordType.Name = &quot;Household&quot;),Online_Only__c = FALSE ,
+
+ISPICKVAL(ucinn_ascendv2__Preferred_Address_Type__c, &quot;&quot;))</errorConditionFormula>
+    <errorDisplayField>ucinn_ascendv2__Preferred_Address_Type__c</errorDisplayField>
+    <errorMessage>Organizations require an Address unless it is Online Only.</errorMessage>
+</ValidationRule>
